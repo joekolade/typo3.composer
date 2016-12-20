@@ -1,0 +1,10 @@
+{
+   "require": {
+      "typo3/surf": "dev-master"
+   },
+   "autoload": {
+      "psr-4": {
+         "SCW\\TestTypo3\\Deployment\\": "src"
+      }
+   }
+}
