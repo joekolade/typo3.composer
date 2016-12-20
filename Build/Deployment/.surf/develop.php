@@ -1,6 +1,6 @@
 <?php
-use SCW\TestTypo3\Deployment\Application;
-use SCW\TestTypo3\Deployment\Node;
+use SCW\TestTypo3\Deployment\Application\TestTypo3Application;
+use SCW\TestTypo3\Deployment\Node\TestTypo3Node;
 
 $application = new TestTypo3Application(
     '/kunden/333215_89231/webseiten/typo3/surf.joekola.de',

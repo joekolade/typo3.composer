@@ -40,7 +40,7 @@ class TestTypo3Application extends \TYPO3\Surf\Application\TYPO3\CMS
         $this->setOption('keepReleases', 5);
         $this->setOption('repositoryUrl', 'git@github.com:joekolade/typo3.composer.git');
         $this->setOption('composerCommandPath', 'composer');
-        $this->setOption('applicationRootDirectory', '/Web');
+        $this->setOption('applicationRootDirectory', '/kunden/333215_89231/webseiten/typo3/surf.joekola.de/');
         // "baseUrl" is a required option of WebOpcacheResetExecuteTask
         $this->setOption('baseUrl', $baseUrl);
         // "databaseCompareMode" is used by the CompareDatabaseTask
